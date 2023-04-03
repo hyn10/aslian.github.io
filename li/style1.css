@@ -1,0 +1,103 @@
+h1{
+   text-align: center;
+   height: 48px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgba(255, 127, 246, 0.514);
+   font-size: 48px;
+   margin-bottom: 50px;
+}
+p{
+    text-align: center;
+    font-size: 32px;
+    background: rgba(246, 123, 211, 0.489);
+    color: rgb(8, 0, 0);
+    border: rgb(7, 0, 0) solid 5px ;
+    border-radius: 15px;
+    width: 800px;
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+span{
+    text-align: left;
+}
+.style1{
+    color: black;
+    background-color:rgba(245, 244, 164, 0.427); 
+    border: black solid 3px ;
+    border-radius: 20px;
+}
+a{
+    text-align: center;
+    font-size: 48px;
+    background: rgba(243, 241, 116, 0.427);
+    color: black;
+    border: black solid 5px ;
+    border-radius: 25px;
+    height: 48px;
+    margin-bottom: 100px;
+    text-decoration:none;
+    margin-left: 550px;
+}
+a:hover{
+    text-align: center;
+    font-size: 48px;
+    background: rgba(116, 203, 243, 0.427);
+    color: rgb(10, 18, 118);
+    border: rgb(22, 13, 87) solid 5px ;
+    border-radius: 25px;
+    height: 48px;
+    margin-bottom: 100px;
+    text-decoration:none;
+}
+.style2{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(28, 146, 220);
+    font-weight: lighter;
+    background-color: white;
+    border-top: #306db2 dotted 5px;
+    border-bottom: solid white 5px; 
+    border-right: solid white 5px;
+    border-left: solid white 5px;
+    background-color: white;
+    width: 1200px;
+    margin-top: 50px;
+}
+.style3{
+    text-align: center;
+    font-size: 32px;
+    background: rgba(123, 176, 246, 0.489);
+    color: rgb(8, 0, 0);
+    border: rgb(7, 0, 0) solid 5px ;
+    border-radius: 50% ;
+    width: 32px;
+    float: left;
+    margin-left: auto;
+}
+.style4{
+    text-align: center;
+    font-size: 32px;
+    background: rgba(123, 176, 246, 0.489);
+    color: rgb(8, 0, 0);
+    border: rgb(7, 0, 0) solid 5px ;
+    border-radius: 50% ;
+    width: 32px;
+    float: left;
+    margin-left: 20px;
+}
+.style5{
+    text-align: center;
+    font-size: 32px;
+    background: rgba(123, 176, 246, 0.489);
+    color: rgb(8, 0, 0);
+    border: rgb(7, 0, 0) solid 5px ;
+    border-radius: 50%;
+    width: 32px;
+    float: left;
+}
+@media (max-width:600px){
+    p a h1 .style1 .style2 .style3 .style4 .style5{
+        flex:1 1 auto;
+    }
+}

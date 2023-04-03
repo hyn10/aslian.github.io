@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS.LIAN</title>
+
+    <!--font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="ECG.html" class="logo"><img  src="images/home.png" ></a>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <nav class="navbar">   
+            <a href="#form">預約表單</a>
+            <a href="#review">產品介紹</a>
+            <a href="#our">關於我們</a>
+        </nav>
+    </header>
+    <div class="form" id="form">
+        <form action="#" method="post" name="google">
+          <label for="name">姓名：</label>
+          <input type="text"  placeholder="Your name.." name="name">
+          <label for="phone">電話號碼：</label>
+          <input type="text"  name="phone number"  placeholder="Your phone number..">
+          <label for="e-mail" >e-mail</label>
+          <input type="text"  placeholder="Your e-mail.." name="Email Address">
+          <p>性別</p>
+          <input type="radio" name="gender" value="man"> 男性
+          <input type="radio" name="gender" value="woman"> 女性
+          <br>
+          <br>
+            <label>請選擇日期:！不可以當天預約！</label>
+            <input type="date" name="date">
+            <br>
+            <label>請選擇時間:</label>
+            <select name="time"onmousedown="this.value='';" onchange="jsFunction(this.value);">
+              <option value="">請選擇時間</option>
+              <option value="09:00">09:00</option>
+              <option value="10:00">10:00</option>
+              <option value="11:00">11:00</option>
+              <option value="12:00">12:00</option>
+              <option value="13:00">13:00</option>
+              <option value="14:00">14:00</option>
+              <option value="15:00">15:00</option>
+              <option value="16:00">16:00</option>
+              <option value="17:00">17:00</option>
+            </select>
+            <p>選擇服務</p>
+            <select name="type" onmousedown="this.value='';" onchange="jsFunction(this.value);">
+              <option value="">請選擇服務</option>
+              <option value="hair cutting">剪髮</option>
+              <option value="permanent">燙髮</option>
+              <option value="hair coloring">染髮</option>
+              <option value="hair  treatment">護髮</option>
+            </select>
+            <p>是否要加購商品，可到<a href="#review" class="car">購物車</a>查看</p>
+            <select name="goods" onmousedown="this.value='';" onchange="jsFunction(this.value);">
+                <option value="">是否要訂購商品</option>
+                <option value="no">否</option>
+                <option value="permanent">洗髮精</option>
+                <option value="hair coloring">護髮素</option>
+                <option value="hair  treatment">頭皮調理精純液</option>
+                <option value="hair  treatment">奇蹟柔感原液</option>
+                <option value="hair  treatment">彈力捲髮慕斯</option>
+                <option value="hair  treatment">頭皮染燙隔離舒敏精華</option>
+              </select>
+            <img id="show_˙image" src="">
+            <input type="submit" class="btn" value="  送出  " >
+            <p class="style2">！按完送出後，請等看到頁面說明畫面並按確定紐，預約即可成功！</p>
+        </form>
+    <br>
+      </div>
+      <section class="review" id="review">
+        <h1 >蓮美髮產品介紹</h1>
+        <div class="box-container">
+          <div class="box">
+            <img src="images/coffee.jpg">
+            <h3>洗髮精</h3>
+            <P>主打為<b>細軟易塌髮設計</b>，添加角蛋白胺基酸，打造柔順有光澤的秀髮，還能<b>強韌髮絲、不易扁塌</b>，只要一瓶就能輕鬆搞定！</P>
+          </div>     
+          <div class="box">
+            <img src="images/2.jpg">
+            <h3>護髮素</h3>
+            <p>以既親油又親水的<b>高分子乳化劑</b>基底，加入水性營養成分，顆粒小、渗透快，短時間可被頭髮吸收，也不易有油膩感</p>
+      </div>
+      <div class="box">
+            <img src="images/3.jpg">
+            <h3>頭皮調理精純液</h3> 
+           <p>有效調理頭皮<b>脂垢和頭皮屑</b>坑菌、滋養、清除頭皮阻塞，<br>因此適用乾性頭皮屑、細髮基底</p>
+            
+      </div>
+        </div>
+    </div>
+    <section class="review" id="review">
+      <div class="box-container">
+        <div class="box">
+          <img src="images/4.jpg">
+          <h3>奇蹟柔感原液</h3>
+          <P>將<b>受損髮</b>仙氣復生術，防斷裂效果顯著，強韌度可達23%up，還具<b>漸層式精品香氣</b>，讓人放鬆心靈的香氣！</P>
+        </div>     
+        <div class="box">
+          <img src="images/6.jpg">
+          <h3>彈力捲髮慕斯</h3>
+          <p>採用<b>定制壓頭 泡沫細密Q彈</b>，不過重無負擔、無白屑，適用於濕髮或半乾髮，均勻塗抹在需要造型上的捲度上</p>
+    </div>
+    <div class="box">
+          <img src="images/5.jpg">
+          <h3>頭皮染燙隔離舒敏精華</h3>
+          <P><b>主打消除染燙異味、阻隔化傷</b>，<br>具冰鎮舒緩降低頭皮不適應感，保濕防敏及保護肌膚</P>
+          
+    </div>
+      </div>       
+<div>   
+    <section class="footer" id="our">
+        <div class="share">
+            <p>歡迎加入我們FB粉絲團   <a href="https://www.facebook.com/profile.php?id=100087933751074" ><i class="fab fa-facebook-square" style="color:rgb(0, 0, 0);"></i></a><br>
+           地址：台南市安平區建平12街151號
+              <br>tel：(06)2983513<br><br>
+              </p>
+        </div>
+        
+</div>
+    </section>
+    <a href="#form" class="fas fa-angle-up" id="scroll-top"></a>
+ 
+<script src="script.js"></script>
+<script type="text/javascript">
+    const scriptURL='https://script.google.com/macros/s/AKfycbx6TtmHossy2x-6amoN7me26Sq0tqOd37apDpDXKTeTMdiaKLXgeDdneiB97yKUc0GsTw/exec'
+    const form = document.forms['google']
+          
+          form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+              .then(response => alert("您預約成功了!謝謝您~"))
+              .catch(error => console.error('Error!', error.message))
+          })
+
+</script>
+</body>
+</html>
